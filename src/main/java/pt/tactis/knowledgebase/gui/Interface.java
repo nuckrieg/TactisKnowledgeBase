@@ -2,12 +2,12 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
-package com.tactis.knowledgebase.gui;
+package pt.tactis.knowledgebase.gui;
 
 import com.gg.slider.SideBar;
 import com.gg.slider.SidebarSection;
-import com.tactis.knowledgebase.Main;
-import static com.tactis.knowledgebase.gui.Panels.sideBar;
+import pt.tactis.knowledgebase.Main;
+import static pt.tactis.knowledgebase.gui.Panels.sideBar;
 import java.awt.Component;
 
 import javax.swing.*;

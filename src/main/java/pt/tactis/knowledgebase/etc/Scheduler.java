@@ -1,4 +1,4 @@
-package com.tactis.knowledgebase.etc;
+package pt.tactis.knowledgebase.etc;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

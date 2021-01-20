@@ -171,7 +171,7 @@ public class CalculationTree extends JTree {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     e.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);
                 }
             } catch (UnknownHostException ex) {
                 Logger.getLogger(CalculationTree.class.getName()).log(Level.SEVERE, null, ex);
@@ -181,7 +181,7 @@ public class CalculationTree extends JTree {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     e.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);
                 }
             } catch (UnknownHostException ex) {
                 Logger.getLogger(CalculationTree.class.getName()).log(Level.SEVERE, null, ex);

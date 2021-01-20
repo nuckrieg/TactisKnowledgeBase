@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.tactis.knowledgebase.etc;
+package pt.tactis.knowledgebase.etc;
 
 import java.io.OutputStream;
 import java.io.PrintStream;

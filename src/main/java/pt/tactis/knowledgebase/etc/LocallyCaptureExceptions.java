@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.tactis.knowledgebase.etc;
+package pt.tactis.knowledgebase.etc;
 
 import io.sentry.Sentry;
 

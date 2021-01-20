@@ -121,7 +121,7 @@ public class CalculationShared extends Output implements CalculationObject,
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             e.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);}
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);}
                     } catch (UnknownHostException ex) {
                         Logger.getLogger(CalculationShared.class.getName()).log(Level.SEVERE, null, ex);
                     }

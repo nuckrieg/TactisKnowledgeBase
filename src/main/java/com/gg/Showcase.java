@@ -38,7 +38,7 @@ public class Showcase extends JFrame {
             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                 e.printStackTrace();
             } else {
-                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);
+                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);
             }
             // If Nimbus is not available, fall back to cross-platform
             try {
@@ -47,7 +47,7 @@ public class Showcase extends JFrame {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     ex.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                 }
                 // not worth my time
             }

@@ -31,7 +31,7 @@ public class ValueNode implements CalculationObject {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(ValueNode.class.getName()).log(Level.SEVERE, null, ex1);
                     }

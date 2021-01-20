@@ -3,10 +3,10 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.tactis.knowledgebase.gui;
+package pt.tactis.knowledgebase.gui;
 
-import com.tactis.knowledgebase.Main;
-import static com.tactis.knowledgebase.Main.logger;
+import pt.tactis.knowledgebase.Main;
+import static pt.tactis.knowledgebase.Main.logger;
 import io.sentry.Sentry;
 import javax.swing.*;
 import java.awt.*;

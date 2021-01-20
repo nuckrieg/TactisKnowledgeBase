@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.tactis.knowledgebase.gui;
+package pt.tactis.knowledgebase.gui;
 
 /**
  *
  * @author FabioAbreu
  */
-import static com.tactis.knowledgebase.gui.Panels.propertiesManager;
+import static pt.tactis.knowledgebase.gui.Panels.propertiesManager;
 import org.icepdf.core.pobjects.Document;
 import org.icepdf.core.util.Defs;
 import org.icepdf.ri.common.*;

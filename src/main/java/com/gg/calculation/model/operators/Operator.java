@@ -31,7 +31,7 @@ public abstract class Operator implements CalculationObject {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
                     } catch (UnknownHostException exe) {
                         Logger.getLogger(Operator.class.getName()).log(Level.SEVERE, null, exe);
                     }

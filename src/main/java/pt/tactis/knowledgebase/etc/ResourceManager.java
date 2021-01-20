@@ -1,4 +1,4 @@
-package com.tactis.knowledgebase.etc;
+package pt.tactis.knowledgebase.etc;
 
 import io.sentry.Sentry;
 import java.io.*;
@@ -75,7 +75,7 @@ public class ResourceManager {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     ex.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
             } catch (UnknownHostException ex1) {
                 Logger.getLogger(ResourceManager.class.getName()).log(Level.SEVERE, null, ex1);
             }

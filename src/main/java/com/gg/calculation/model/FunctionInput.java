@@ -47,7 +47,7 @@ public class FunctionInput implements CalculationObject {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);}
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(FunctionInput.class.getName()).log(Level.SEVERE, null, ex1);
                     }

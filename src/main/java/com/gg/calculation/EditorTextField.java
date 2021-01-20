@@ -70,7 +70,7 @@ public class EditorTextField extends JTextField implements CellEditor {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             e.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);}
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(e);}
                     } catch (UnknownHostException ex) {
                         Logger.getLogger(EditorTextField.class.getName()).log(Level.SEVERE, null, ex);
                     }

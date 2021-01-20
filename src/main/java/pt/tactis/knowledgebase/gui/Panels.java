@@ -2,13 +2,13 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
-package com.tactis.knowledgebase.gui;
+package pt.tactis.knowledgebase.gui;
 
 import com.gg.slider.SideBar;
 import com.gg.slider.SideBar.SideBarMode;
 import com.gg.slider.SidebarSection;
-import com.tactis.knowledgebase.Main;
-import static com.tactis.knowledgebase.Main.KBVERSION;
+import pt.tactis.knowledgebase.Main;
+import static pt.tactis.knowledgebase.Main.KBVERSION;
 import io.sentry.Sentry;
 import org.icepdf.core.pobjects.Document;
 import org.icepdf.ri.common.SwingController;
@@ -1274,7 +1274,7 @@ public class Panels extends SwingController {
                         //  JOptionPane.showMessageDialog(finalFrame, "Versão Tactis KB é " + System.getProperty("KBVERSION", KBVERSION), "Informação", 1);
                         tabbedPane.setSelectedIndex(0);
                     } catch (Exception ex) {
-                        com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                        pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                     }
 
                 }
@@ -1339,7 +1339,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1397,7 +1397,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1486,7 +1486,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1527,7 +1527,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1567,7 +1567,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1612,7 +1612,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1652,7 +1652,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1723,7 +1723,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1777,7 +1777,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1833,7 +1833,7 @@ public class Panels extends SwingController {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Panels.class.getName()).log(Level.SEVERE, null, ex1);

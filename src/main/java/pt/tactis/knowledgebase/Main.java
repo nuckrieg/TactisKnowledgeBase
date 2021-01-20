@@ -2,15 +2,15 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
-package com.tactis.knowledgebase;
+package pt.tactis.knowledgebase;
 
 //import com.gtranslate.Translator;
-import com.tactis.knowledgebase.etc.Scheduler;
-import com.tactis.knowledgebase.gui.LoadingScreen;
-import com.tactis.knowledgebase.gui.Panels;
-import com.tactis.knowledgebase.gui.Interface;
-import static com.tactis.knowledgebase.gui.LoadingScreen.barra;
-import static com.tactis.knowledgebase.gui.LoadingScreen.label;
+import pt.tactis.knowledgebase.etc.Scheduler;
+import pt.tactis.knowledgebase.gui.LoadingScreen;
+import pt.tactis.knowledgebase.gui.Panels;
+import pt.tactis.knowledgebase.gui.Interface;
+import static pt.tactis.knowledgebase.gui.LoadingScreen.barra;
+import static pt.tactis.knowledgebase.gui.LoadingScreen.label;
 import java.awt.Image;
 import org.icepdf.core.exceptions.PDFException;
 import org.icepdf.core.exceptions.PDFSecurityException;
@@ -210,7 +210,7 @@ public class Main {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     ex.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                 }
             } catch (UnknownHostException ex1) {
                 Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -233,7 +233,7 @@ public class Main {
                     if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                         ex.printStackTrace();
                     } else {
-                        com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                        pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                     }
                 } catch (UnknownHostException ex1) {
                     Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -343,7 +343,7 @@ public class Main {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     ex.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                 }
             }
 
@@ -365,7 +365,7 @@ public class Main {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -452,7 +452,7 @@ public class Main {
                 if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                     ex.printStackTrace();
                 } else {
-                    com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                    pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                 }
             } catch (UnknownHostException ex1) {
                 Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -471,7 +471,7 @@ public class Main {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -481,7 +481,7 @@ public class Main {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -688,7 +688,7 @@ public class Main {
             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                 ex.printStackTrace();
             } else {
-                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
             }
         }
         // barra.setValue(value += 2);
@@ -931,7 +931,7 @@ public class Main {
                     if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                         ex.printStackTrace();
                     } else {
-                        com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                        pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                     }
                 } catch (UnknownHostException ex1) {
                     Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -950,7 +950,7 @@ public class Main {
                         if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                             ex.printStackTrace();
                         } else {
-                            com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                            pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                         }
                     } catch (UnknownHostException ex1) {
                         Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex1);
@@ -1075,7 +1075,7 @@ public class Main {
                     if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                         ex.printStackTrace();
                     } else {
-                        com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                        pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                     }
                 }
 
@@ -1093,7 +1093,7 @@ public class Main {
                             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                                 ex.printStackTrace();
                             } else {
-                                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                             }
                         }
                     }
@@ -1126,7 +1126,7 @@ public class Main {
                             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                                 ex.printStackTrace();
                             } else {
-                                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                             }
                         }
                         try {
@@ -1135,7 +1135,7 @@ public class Main {
                             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                                 ex.printStackTrace();
                             } else {
-                                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                             }
                         }
                         errorStream = p.getErrorStream();
@@ -1148,7 +1148,7 @@ public class Main {
                             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                                 ex.printStackTrace();
                             } else {
-                                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                             }
                         }
                         try {
@@ -1159,7 +1159,7 @@ public class Main {
                             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                                 ex.printStackTrace();
                             } else {
-                                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                             }
                         }
                         if (!error.trim().equals("")) {
@@ -1225,7 +1225,7 @@ public class Main {
                             if (InetAddress.getLocalHost().getHostName().equals("DESKTOP-FABREU")) {
                                 ex.printStackTrace();
                             } else {
-                                com.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
+                                pt.tactis.knowledgebase.etc.LocallyCaptureExceptions.send(ex);
                             }
                         }
                    //     System.out.println("error 1");
